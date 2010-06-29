@@ -29,10 +29,8 @@ dbus_signals = {
 }
 
 ## dbus methods
-def dbus_event(x, sender=None):
-    print 'foo'
+def dbus_event(x):
     print x
-    print sender
 
 ##### backup backends
 bbs = [
